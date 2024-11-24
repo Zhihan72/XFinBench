@@ -1,6 +1,6 @@
 # XFinBench
 
-This repository contains the code and data for the paper "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning". This responsitory is only used for double-blind reviewing. 
+This repository contains the code and data for the paper "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning". This responsitory is only used for double-blind reviewing and ANYONE is not allowed to distribute our dataset at any time.
 
 ## About XFinBench
 
@@ -34,4 +34,6 @@ term_definition: the definition of terms.
 
 ## Code
 
-We will update codes for dataset construction and experiments as soon as possible. Thank you for your patience!
+The main code for our evaluation is in ```Eval_Model.py```, and you can run ```run_experiment.sh``` for setting parameters. Remeber to change the file paths to your local modle checkpoints.
+
+More codes for knowledge augmentation are on the way. Thank you for your patience.
