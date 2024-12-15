@@ -34,6 +34,9 @@ term_definition [str]: the definition of terms.
 
 ## Code
 
-The main code for our evaluation is in ```Eval_Model.py```, and you can run ```run_experiment.sh``` for setting parameters. Remeber to change the file paths to your local modle checkpoints.
+Codes for dataset construction are in ```./construct_data``` folder. ```Generate_then_verify.py``` and ```QA_deduplication_bool.py``` correspond to _GPT-4o Enchanced Annotation_ section in our paper.
 
-More codes for knowledge augmentation are on the way. Thank you for your patience.
+Codes for model evaluation are in ```./evaluate``` folder. Please change the experiment setting in ```./script/run_evaluate.sh``` and run the following command for evaluation:
+```
+bash ./script/run_evaluate.sh
+```
