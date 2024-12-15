@@ -1,0 +1,4 @@
+{knowledge}
+
+Statement: {question}
+Is the above statement true or false? Please output your answer starting with 'Therefore, my answer is'.
