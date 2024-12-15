@@ -6,7 +6,7 @@ This repository contains the code and data for the paper "XFinBench: Benchmarkin
 
 **XFinBench**, a novel benchmark designed to evaluate LLM's ability in solving comple**X**, knowledge-intensive **Fin**ancial problems across diverse graduate-level topics with multi-modal context. We identify five core capabilities of LLMs using XFinBench, _i.e_, _Terminology Understanding_ (TU), _Temporal Reasoning_ (TR), _Future Forecasting_ (FF), _Scenario Planning_ (SP), and _Numerical Modelling_ (NM).
 
-## Dataset Usage
+## Dataset
 
 All the examples in XFinBench were divided into two subsets: validation and test.
 
@@ -15,21 +15,21 @@ All the examples in XFinBench were divided into two subsets: validation and test
 
 Data structure of examples in XFinBench is
 ```
-id: Unique id for each example.
-task: bool, mcq and calcu.
-question: the question in the example.
-choice: candidate choices if task is mcq.
-ground_truth: correct answer to the question. Masked in the test set.
-figure: figure name if visual-context required.
-fin_capability: TU, TR, FF, SP and NM.
-gold_fin_term_id: finance term id as ground truth of related background. Masked in the test set.
+id [str]: Unique id for each example.
+task [str]: bool, mcq and calcu.
+question [str]: the question in the example.
+choice [str]: candidate choices if task is mcq.
+ground_truth [str]: correct answer to the question. Masked in the test set.
+figure [str]: figure name if visual-context required.
+fin_capability [str]: TU, TR, FF, SP and NM.
+gold_fin_term_id [int]: finance term id as ground truth of related background. Masked in the test set.
 ```
 
 Data structure of terms in knowledge bank is
 ```
-id: Unique id for each finance term.
-term_name: the full name of terms.
-term_definition: the definition of terms.
+id [str]: Unique id for each finance term.
+term_name [str]: the full name of terms.
+term_definition [str]: the definition of terms.
 ```
 
 ## Code
