@@ -1,6 +1,6 @@
 # XFinBench
 
-This repository contains the code and data for the paper "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning". This responsitory is only used for double-blind reviewing and ANYONE is not allowed to distribute our dataset at any time.
+This repository contains the code and data for the paper "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning". Our work has been accepted to ACL 2025 Findings.
 
 ## About XFinBench
 
