@@ -1,6 +1,10 @@
 # XFinBench
 
-This repository contains the code and data for the paper "XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning". Our work has been accepted to ACL 2025 Findings.
+This repository contains the code and data for the paper **XFinBench: Benchmarking LLMs in Complex Financial Problem Solving and Reasoning**. Our work has been accepted to Findings of ACL 2025.
+* Paper: https://aclanthology.org/2025.findings-acl.457/
+* Arxiv: https://arxiv.org/abs/2508.15861
+* GitHub: https://github.com/Zhihan72/XFinBench
+* Huggingface: https://huggingface.co/datasets/Zhihan/XFinBench
 
 ## About XFinBench
 
