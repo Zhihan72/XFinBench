@@ -12,6 +12,7 @@ All the examples in XFinBench were divided into two subsets: validation and test
 
 * validation: 1,000 examples used for model development, validation, or for those with limited computing resources.
 * test: 3,235 examples for standard evaluation. Notably, the ground truthes and gold finance terms for test set will NOT be publicly released.
+  * **Update** on 04-Feb-2026: The ground truthes and gold finance terms for test set are publicly released.
 
 Data structure of examples in XFinBench is
 ```
